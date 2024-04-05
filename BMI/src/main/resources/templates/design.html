@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>BMI Beregner</title>
+</head>
+<body>
+
+<link rel="Stylesheet" href="../static/style.css" th:href="@{style.css}">
+
+<div>
+<h1>BMI beregner</h1>
+
+<Form action="/processForm" method="post">
+
+    <label for="weight"> Weight (kg) <br></label>
+    <input type="number" name="weight" id= weight placeholder="Indtast din vægt i kg." autofocus>
+    <label for="height"> <br> <br>Height (cm) <br> </label>
+    <input type="number" name="height" id= height placeholder="Indtast din højde i cm" autofocus>
+    <br>
+    <br>
+    <input type="submit" value="Beregn" autofocus>
+
+
+</Form>
+</div>
+
+</body>
+</html>

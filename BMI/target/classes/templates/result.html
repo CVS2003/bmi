@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="https://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Din BMI</title>
+</head>
+<body>
+
+<h1> Din BMI </h1>
+
+<p>Din BMI er: <span th:text="${bmi}"> </span></p>
+<p th:if="${bmi<18}"> Du er undervægtig</p>
+<p th:if="${bmi>25}"> Du er overvægtig</p>
+<p th:if="${bmi<25 && bmi>18}"> Du er normalvægtig</p>
+
+
+</body>
+</html>

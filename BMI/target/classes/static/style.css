@@ -1,0 +1,12 @@
+div{
+    display:inline-block;
+    border-radius:10px;
+    width:30%;
+    height:50%;
+    padding:2px;
+    border:1px ridge darkgrey;
+    text-align:center;
+    box-shadow: black;
+    background-color:aliceblue;
+}
+
